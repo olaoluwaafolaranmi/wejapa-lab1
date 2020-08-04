@@ -4,9 +4,9 @@
 #Note that this code uses scientific notation to define large numbers. 4.445e8 is equal to 4.445 * 10 ** 8 which is equal to 444500000.0.
 
 # Write your function here. Make sure to use "population_density" as the name of the fucntion. so, the test below works. 
-def population_density(x,y):
-    z = x/y
-    return z
+def population_density(population,area):
+    population_density = population/area
+    return population_density
 	
 
 # test cases for your function Dont change anything below this comment.
